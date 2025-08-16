@@ -47,9 +47,9 @@ export class Chain {
 
     this.joints.push(root);
 
-    const numJoints = 56;
-    const factor = 0.98;
-    let offset = 4;
+    const numJoints = 4;
+    const factor = 1.1;
+    let offset = 60;
     for (let i = 0; i < numJoints; i++) {
       this.joints.push(
         new Joint(
